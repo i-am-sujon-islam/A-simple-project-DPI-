@@ -1,0 +1,47 @@
+@media only screen and (max-width:768px) {
+    body {
+        font-size: 61%;
+    }
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+    #full-content .content .notice-board {
+    width: 100%;
+    height: 20rem;
+    padding: 1.5rem 0 0 3rem;
+   }
+    .small-ful-box .s-box img{
+        width: 4.5rem;
+        height: 4.5rem;
+    } 
+    .small-ful-box .s-box h2 {
+        font-size: .9rem;
+    }
+    .small-ful-box .s-box ul li {
+    font-size: .8rem;
+    }
+    .sidebar-box h2 {
+        font-size: .9rem;
+    }
+    .f-part img {
+       width: 10rem; 
+    }
+}
+@media only screen and (max-width:576px) {
+    body {
+        font-size: 60%;
+    }
+    header .logo h1 {
+        font-size: 1.3rem;
+    }
+    .small-ful-box .s-box {
+        width: 98%;
+        margin: .4rem .6rem;
+        float: none;
+        overflow: hidden;
+    }
+    .c-part {
+        width: 130%;
+        margin: .6rem .8rem;
+    }
+}
